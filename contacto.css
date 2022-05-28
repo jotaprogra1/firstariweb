@@ -1,0 +1,100 @@
+
+.encabezado {
+    background-color:rgba(0,0,0,.20);
+    color: rgba(157, 74, 168, 0.6);
+    font-size: 45px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: rgba(157, 74, 168, 0.75);
+
+}
+
+.container {
+    position:absolute;
+    margin:center;
+    padding:center;
+    border:center;
+
+}
+
+.col-md-8
+{
+    background-color:  rgba(34, 4, 37, 0.2)
+}
+
+
+.body2 {
+    background-image: url(Imagenes/wallpaper3.jpg);
+}
+
+.col-md-12 {
+    margin: 100px;
+}
+
+.btn btn-primary{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(157, 74, 168, 0.6);
+    border: none;
+    color: silver;
+    text-align: center;
+    font-size: 28px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color:  rgba(157, 74, 168, 0.6);
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+
+.button1 {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: rgba(157, 74, 168, 0.6);
+        border: none;
+        color: silver;
+        text-align: center;
+        font-size: 28px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .button1 {
+        border-radius: 4px;
+        background-color:  rgba(157, 74, 168, 0.6);
+        border: none;
+        text-align: center;
+        font-size: 28px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+      
+      .button1 span {
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      
+      .button1 span:after {
+        content: '\00bb';
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button1 :hover span {
+        padding-right: 65px;
+      }
+      
+      .button1 :hover span:after {
+        opacity: 1;
+        right: 0;
+      }
