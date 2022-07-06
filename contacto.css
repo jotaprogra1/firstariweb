@@ -2,13 +2,56 @@
 .encabezado {
     background-color:rgba(0,0,0,.20);
     color: rgba(157, 74, 168, 0.6);
-    font-size: 45px;
+    font-size: 30px;
+}
+
+.encabezado2 {
+  background-color:rgba(0,0,0,.20);
+  color: rgba(241, 176, 250, 0.6);
+  font-size: 18px;
+  margin: 35px;
+}
+
+.body2 {
+  background-image: url(Imagenes/wallpaper3.jpg);
+  
+}
+
+.headercontacto {
+    display: flex;
+
+    flex-flow: column;
+
+    flex-flow: nowrap;
+    
+    background-color:rgba(0,0,0,0);
+    
+    height: 20px;
+
+    background-position-x: left;
+    
+    background-position-y: left;
+
+    background-attachment: contain;
+
+    background-size: 100% 100%;
+
+    margin-top: 100px;
+
+    align-content: center;
+
+    align-items: center;
+
+    color: rgba(241, 176, 250, 0.6);;
+
+    font-size: 30px;
+
+    text-decoration-color: rgba(241, 176, 250, 0.6);;
 }
 
 .bigicon {
-    font-size: 35px;
-    color: rgba(157, 74, 168, 0.75);
-
+    font-size: 30px;
+    color: rgba(175, 84, 187, 0.75);
 }
 
 .container {
@@ -16,14 +59,12 @@
     margin:center;
     padding:center;
     border:center;
-
 }
 
 .col-md-8
 {
     background-color:  rgba(34, 4, 37, 0.2)
 }
-
 
 .body2 {
     background-image: url(Imagenes/wallpaper3.jpg);
